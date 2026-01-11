@@ -100,6 +100,14 @@ export default function Contact() {
 
     return (
         <section ref={containerRef} className="relative z-10 w-full overflow-hidden bg-black px-6 py-24">
+            <div className="mx-auto max-w-7xl">
+                <div className="mb-16 flex flex-col items-center text-center">
+                    <h2 className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-500">
+                        Contact
+                    </h2>
+                    <h3 className="mt-2 font-serif text-4xl text-white md:text-5xl">Get In Touch</h3>
+                </div>
+            </div>
             {/* Background Glow */}
             <div className="absolute right-0 top-1/2 h-[500px] w-[500px] -translate-y-1/2 translate-x-1/4 rounded-full bg-white/5 blur-[120px] pointer-events-none" />
 

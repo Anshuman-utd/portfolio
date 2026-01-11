@@ -4,7 +4,7 @@ import React, { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { LucideIcon, Code2, Database, Layout, Terminal, Box, Server, Cpu, Layers, GitBranch, PenTool, Braces, Smartphone, Globe, Cloud, Command, Hash, FileCode } from 'lucide-react';
+import { LucideIcon, Code2, Database, Layout, Terminal, Box, Server, Cpu, Layers, GitBranch, PenTool, Braces, Smartphone, Globe, Cloud, Command, Hash, FileCode, PieChart, ShieldCheck, Network, Zap, Send, Lightbulb, Triangle } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -25,9 +25,13 @@ const skillsData: SkillCategory[] = [
         skills: [
             { name: 'HTML', icon: FileCode, color: '#E34F26' },
             { name: 'CSS', icon: Layout, color: '#1572B6' },
+            { name: 'JavaScript', icon: FileCode, color: '#F7DF1E' },
+            { name: 'TypeScript', icon: Code2, color: '#3178C6' },
             { name: 'React', icon: Code2, color: '#61DAFB' },
             { name: 'Next.js', icon: Globe, color: '#ffffff' },
             { name: 'Tailwind CSS', icon: Box, color: '#38B2AC' },
+            { name: 'Chart.js', icon: PieChart, color: '#FF6384' },
+            { name: 'Framer Motion', icon: Layers, color: '#E902B7' },
             { name: 'GSAP', icon: Layers, color: '#88CE02' },
             { name: 'Three.js', icon: Box, color: '#ffffff' }, // White in dark mode
         ],
@@ -37,6 +41,8 @@ const skillsData: SkillCategory[] = [
         skills: [
             { name: 'Node.js', icon: Server, color: '#339933' },
             { name: 'Express', icon: Terminal, color: '#ffffff' },
+            { name: 'REST APIs', icon: Network, color: '#009688' },
+            { name: 'JWT Auth', icon: ShieldCheck, color: '#D63AFF' },
             { name: 'Prisma', icon: Database, color: '#2D3748' },
             { name: 'MySQL', icon: Database, color: '#4479A1' },
             { name: 'MongoDB', icon: Database, color: '#47A248' },
@@ -46,8 +52,12 @@ const skillsData: SkillCategory[] = [
     {
         title: 'Tools & Other',
         skills: [
+            { name: 'C++', icon: Code2, color: '#00599C' },
             { name: 'Git / GitHub', icon: GitBranch, color: '#F05032' },
+            { name: 'Postman', icon: Send, color: '#FF6C37' },
+            { name: 'Vercel', icon: Triangle, color: '#ffffff' },
             { name: 'Figma', icon: PenTool, color: '#F24E1E' },
+            { name: 'Problem Solving', icon: Lightbulb, color: '#FFD700' },
             { name: 'DSA', icon: Braces, color: '#FFFF00' },
             { name: 'Python', icon: Hash, color: '#3776AB' },
             { name: 'AI / ML Basics', icon: Cpu, color: '#FF6F00' },
