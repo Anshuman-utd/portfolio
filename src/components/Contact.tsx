@@ -35,7 +35,7 @@ export default function Contact() {
 
         // NOTE: You must generate a Web3Forms Access Key for anshuman.mehta2024@nst.rishihood.edu.in
         // Go to https://web3forms.com/ to get your key.
-        const accessKey = "e73d5feb-1073-4b00-a58f-a2b5e02fb346";
+        const accessKey = "6e72fb2c-724e-47fb-8e09-9b6e9367bc54";
 
 
 
