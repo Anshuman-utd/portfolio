@@ -41,21 +41,21 @@ const projects: Project[] = [
     },
     {
         id: 3,
-        title: 'Home Hunt - A Real Estate Website',
-        description: 'A responsive real estate web app featuring property listings with search and sorting, favorites with persistence, user authentication.',
-        tech: ['Next.js', 'React', 'Tailwind', 'Firebase'],
-        image: '/images/homehuntimg-2.avif', // Placeholder
-        github: 'https://github.com/Anshuman-utd/HomeHunt-CapstoneProject',
-        demo: 'https://home-hunt-eta.vercel.app',
+        title: 'Hilton AI - Autonomous Data Scientist',
+        description: 'An AI-powered platform that automates the entire data science workflow, from data preprocessing and EDA to model training, evaluation, and prediction generation.',
+        tech: ['Python', 'Django', 'React', 'PostgreSQL', 'LangChain', 'LangGraph', 'FAISS', 'Scikit-learn', 'Tailwind CSS'],
+        image: '/images/hilton-ai-img.avif', // Placeholder
+        github: 'https://github.com/Anshuman-utd/Autonomous-Data-scientist.git',
+        demo: 'https://autonomous-data-scientist-green.vercel.app',
     },
     {
         id: 4,
-        title: 'BookNest - A BookStore Website',
-        description: 'A responsive book store web app featuring property listings with search and sorting, favorites with persistence, user authentication.',
-        tech: ['React', 'Tailwind', ],
-        image: '/images/booknestportimg-4.avif', // Placeholder
-        github: 'https://github.com/Anshuman-utd/Book-nest.git',
-        demo: 'https://book-nest-two.vercel.app',
+        title: 'Bodh AI - AI Tutor',
+        description: 'an agentic AI tutoring platform that transforms PDFs, presentations, and other learning materials into structured, personalized learning experiences. It uses multi-agent workflows and RAG to generate curricula, adaptive quizzes, learning paths,',
+        tech: ['Python', 'Django', 'Next.js', 'PostgreSQL', 'LangChain', 'LangGraph', 'FAISS', 'Groq API', 'Tailwind CSS'],
+        image: '/images/bodh-ai-img.avif', // Placeholder
+        github: 'https://github.com/shouryapratap132006/BodhAI.git',
+        demo: 'https://bodh-ai-kappa.vercel.app',
     },
 ];
 
